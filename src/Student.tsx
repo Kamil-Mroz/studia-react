@@ -1,6 +1,7 @@
 
 
 import { StudentClass } from "./types/Student";
+import "./App.css";
 
 type StudentPropType = {
   student: StudentClass;

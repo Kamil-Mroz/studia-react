@@ -15,6 +15,8 @@ const EditStudent = ({ editFn, student }: EditStudentProps) => {
     setEditableStudent(student);
   }, [student]);
 
+
+
   const formSubmit = (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
 
